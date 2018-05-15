@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">The Journal.Ie</string>
+    <string name="base_url">http://api.thejournal.ie/v3/</string>
+    <string name="username">sample</string>
+    <string name="password">​eferw5wr335£65</string>
+    <string name="internet_error">Check your internet and try again.</string>
+    <string name="response_error">Failed to retrieve data</string>
+    <string name="home_label">All Articles</string>
+    <string name="tag_label">Related Articles</string>
+    <string name="details">Details</string>
+</resources>

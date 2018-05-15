@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_small"
+    tools:context="revathi.thejournalie.ArticleDetailsActivity">
+
+    <TextView
+        android:id="@+id/article_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is the title of article"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/article_desc_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="this is the description of the article"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_small" />
+    </ScrollView>
+</LinearLayout>
